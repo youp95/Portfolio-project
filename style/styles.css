@@ -1,0 +1,42 @@
+/* Color Palette
+add colors that are frequently used here
+by name, hex or rgb
+*/
+
+/*Global styles*/
+
+body {
+    background: darkcyan;
+
+
+}
+
+a {
+    color: blue;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+/* Header and footer */
+
+header, footer {
+    background: lightcyan;
+}
+
+header h1, header h2{
+    color: cornflowerblue;
+}
+
+
+/*Overview*/
+.overview{
+    background:green;
+
+}
+
+
+/*About*/
+
+/*Contact*/
