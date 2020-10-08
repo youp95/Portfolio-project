@@ -6,9 +6,23 @@ by name, hex or rgb
 /*Global styles*/
 
 body {
-    background: darkcyan;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 0;
 
+}
 
+h1, h2 {
+    font-family: 'Caveat Brush', cursive;
+    font-weight: 500;
+}
+
+h1{
+    font-size: 90px;
+}
+
+h2 {
+    font-size: 45px;
+    margin-top: 0;
 }
 
 a {
@@ -19,20 +33,43 @@ a:hover{
     text-decoration: none;
 }
 
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+h2, p {
+    margin: 0;
+    
+}
+
 /* Header and footer */
 
 header, footer {
     background: lightcyan;
+    color: #BD99AE;
 }
 
 header h1, header h2{
     color: cornflowerblue;
 }
 
+footer {
+    text-align: center;
+}
+
+.contact-info a {
+    padding: 20px;
+    display: inline-block;
+}
+
+
+
 
 /*Overview*/
 .overview{
-    background:green;
+    background:aquamarine;
 
 }
 
