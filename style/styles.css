@@ -1,9 +1,13 @@
-/* Color Palette
-add colors that are frequently used here
-by name, hex or rgb
-*/
-
 /*Global styles*/
+
+/* apply natural box layout to all elements, but allowing components to change*/
+
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
 
 body {
     font-family: 'Open Sans Condensed', sans-serif;
@@ -11,66 +15,105 @@ body {
 
 }
 
+a {
+    color: royalblue;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 h1, h2 {
     font-family: 'Caveat Brush', cursive;
     font-weight: 500;
 }
 
-h1{
-    font-size: 90px;
-}
-
-h2 {
-    font-size: 45px;
+h1 {
+    font-size: 80px;
+  }
+  h2 {
+    font-size: 40px;
     margin-top: 0;
-}
+  }
 
-a {
-    color: blue;
-}
-
-a:hover{
-    text-decoration: none;
-}
-
-.content-wrap {
-    max-width: 950px;
+  .content-wrap {
+    max-width: 750px;
     margin: 0 auto;
-    padding: 50px;
-}
-
-h2, p {
-    margin: 0;
-    
-}
+    padding: 80px;
+    overflow: hidden;
+  }
+  
+  .column-narrow {
+    width: 35%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+  }
+  .column-wide {
+    width: 62%;
+    float: left;
+    min-height: 175px;
+  }
 
 /* Header and footer */
 
 header, footer {
-    background: lightcyan;
-    color: #BD99AE;
+    background: lightcyan
 }
 
-header h1, header h2{
-    color: cornflowerblue;
+.profile-img {
+    width: 120px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
 }
 
-footer {
+
+/* If I want the img to be placed above the center-aligned text
+ header {
     text-align: center;
 }
-
-.contact-info a {
-    padding: 20px;
-    display: inline-block;
+*/
+header, 
+footer {
+  background: lightcyan;
+  color: black;
 }
 
+header h1,
+header h2 {
+    color: darkcyan;
+    margin: 0;
+}
+
+/* Header styles only
+header {
+  text-align: center;
+}
+*/
+
+.profile-img {
+  /*width: 300px;*/
+  border-radius: 50%;
+  /*float: left;*/
+  /*margin-right: 30px;*/
+}
+
+/* Footer styles only */
+footer {
+  text-align: center;
+}
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+}
 
 
 
 /*Overview*/
 .overview{
-    background:aquamarine;
-
+    background:royalblue;
+    margin-bottom: 10px;
 }
 
 
